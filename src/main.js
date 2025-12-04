@@ -43,7 +43,9 @@ async function run() {
     const scenarioResponse = await getScenario(ISSUE_KEY, authHeader);
     const summary = await getSummary(ISSUE_KEY, authHeader);
 
-    // Filter Test Scenario, if true label = Scenario, else = Test Case
+    // Filter Test Scenario
+    // if true label on scenario.yaml = Scenario,
+    // if else label on scenario.yaml = Test Case
     const scenario = convertScenarioTitle(scenarioResponse, true);
 
     // Convert Test Steps to Text
