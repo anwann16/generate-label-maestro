@@ -33,7 +33,7 @@ if (TYPE === "TC" && !ISSUE_KEY) {
 // Filter Test Scenario
 // if true label on file yaml = Scenario,
 // if else label on file yaml = Test Case
-const isScenario = true;
+const isScenario = false;
 
 // -------------------------------------------------------------------
 
