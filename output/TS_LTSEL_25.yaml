@@ -1,0 +1,45 @@
+- runFlow:
+    label: Pengguna Check Halaman Gather kondisi inquiry gagal - TS_LTSEL_25_003
+    when:
+      platform: Android
+    file: ../../../../components/lifestyle-menu/pinless/Kai/Android/TS_LTSEL_25_003.yml
+    env:
+      JIRA_ISSUE: MPAAS-11956
+- runFlow:
+    label: Pengguna Check Halaman Gather kondisi inquiry gagal - TS_LTSEL_25_003
+    when:
+      platform: iOS
+    file: ../../../../components/lifestyle-menu/pinless/Kai/iOS/TS_LTSEL_25_003.yml
+    env:
+      JIRA_ISSUE: MPAAS-11956
+
+- runFlow:
+    label: Pengguna Check halaman Result Screen kemudian simpan kontak dengan kondisi kontak sudah penuh - TS_LTSEL_25_004
+    when:
+      platform: Android
+    file: ../../../../components/lifestyle-menu/pinless/Kai/Android/TS_LTSEL_25_004.yml
+    env:
+      JIRA_ISSUE: MPAAS-11957
+- runFlow:
+    label: Pengguna Check halaman Result Screen kemudian simpan kontak dengan kondisi kontak sudah penuh - TS_LTSEL_25_004
+    when:
+      platform: iOS
+    file: ../../../../components/lifestyle-menu/pinless/Kai/iOS/TS_LTSEL_25_004.yml
+    env:
+      JIRA_ISSUE: MPAAS-11957
+
+- runFlow:
+    label: Pengguna Check halaman Result Screen Berhasil dan simpan kontak dengan nama yang sudah ada sebelum nya - TS_LTSEL_25_005
+    when:
+      platform: Android
+    file: ../../../../components/lifestyle-menu/pinless/Kai/Android/TS_LTSEL_25_005.yml
+    env:
+      JIRA_ISSUE: MPAAS-11958
+- runFlow:
+    label: Pengguna Check halaman Result Screen Berhasil dan simpan kontak dengan nama yang sudah ada sebelum nya - TS_LTSEL_25_005
+    when:
+      platform: iOS
+    file: ../../../../components/lifestyle-menu/pinless/Kai/iOS/TS_LTSEL_25_005.yml
+    env:
+      JIRA_ISSUE: MPAAS-11958
+
